@@ -181,12 +181,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "d55dc252-e6b4-40b6-a6d3-15e7c49a8f4d",
-            "Description": "Verify 'TextContent' 'Contains' '+1-888-690-2424' on 'x18886902424StrongTag'",
+            "Description": "Verify 'TextContent' 'NotContain' '+1-888-690-2424' on 'x18886902424StrongTag'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
               "__value": {
-                "CompareType": 2,
+                "CompareType": 3,
                 "SegmentType": 3,
                 "ExpectedString": "+1-888-690-2424",
                 "UseBackupSearch": true,
